@@ -5,7 +5,7 @@ a,b,c=st.columns([0.5,0.1,0.4])
 
 with a:
     img=Image.open("ojhajee.jpg")
-    st.image(img,width=40)
+    st.image(img,width=200)
 lst=['HAPPY','BIRTHDAY','OJHA JEE ']
 clr=['orange','blue','green']
 with c:
