@@ -3,7 +3,7 @@ import time
 from PIL import Image
 a,b,c=st.columns([0.5,0.1,0.4])
 with a:
-    img=Image.open("project_1/ojhajee.jpg")
+    img=Image.open("ojhajee.jpg")
     st.image(img,width=400)
 lst=['HAPPY','BIRTHDAY','OJHA JEE ']
 clr=['orange','blue','green']
